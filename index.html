@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mr Ferdiand@ALC Pixel Art Maker App!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">  <!--adding stylesheet -->
+</head>
+<body>
+    <h1>Mr.Ferdinand @ ALC 2018: <p>Pixel Art Maker App</h1>
+    <h2>Select Grid Dimension </h2>
+
+    <!-- TODO:Selecting Grid Dimension/size of choice-->
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        Grid Width:
+        <input type="number" id="inputWidth" name="width" min="1" value="1">
+        <input type="submit" value= "Submit_Me">
+    </form>
+
+    <!--TODO: picking color for the Grid-->
+    <h2>Pick any Color for Grid App</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="designs.js"></script>
+</body>
+</html>
