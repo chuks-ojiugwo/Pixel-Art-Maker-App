@@ -1,6 +1,7 @@
 Developer: Chuks Ferdinand Ojiugwo
 for: 2018 Google_African_Cchallenge
 #7DaysofCodeChallenge
+Track: Front-End Track
 
 ---------------------------------------------------------------------------------
 USER NOTE/INSTRUCTIONS
